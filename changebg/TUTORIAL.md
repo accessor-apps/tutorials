@@ -74,13 +74,11 @@ first-version/index.html
         <script src="js/script.js"></script>
     </head>
     <body>
-        <div id="wrapper">
-            <div id="surpise">Сюрприз!</div>
-            <div id="next-surprise"></div>
-            <div id="dynamic-container">
-                <input class = "click-me" onclick = "onClickAction()" value="Нажми на меня!" type="button">
-                </div>
-            </div>
+        <div id="surpise">Сюрприз!</div>
+        <div id="next-surprise"></div>
+        <div id="dynamic-container">
+            <input class = "click-me" onclick = "onClickAction()" value="Нажми на меня!" type="button">
+         </div>
         </body>
     </html>
 ````
