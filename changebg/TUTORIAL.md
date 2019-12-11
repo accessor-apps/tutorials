@@ -107,7 +107,7 @@ id для привязки стилей (см. css/styles.css: #surprise)
 <div id="next-surprise"></div>
 ````
 
-''dynamic-container''
+**dynamic-container**
 ```` html
 <div id="dynamic-container">
     <input class = "click-me" onclick = "onClickAction()" value="Нажми на меня!" type="button">
