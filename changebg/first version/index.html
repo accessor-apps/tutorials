@@ -1,0 +1,15 @@
+<html>
+    <head><title>Background Color Changing Test</title></head>
+    <body>
+        <h1>СЮРПРИЗ!</h1>
+        <script>
+            for(var i = 0; i < 5000; i++){} // waiting for 5000 iterations
+            document.bgColor = "yellow"
+        </script>
+        <div>Сейчас будет еще один цветной сюрприз...</div>
+        <script>
+            for(var i = 0; i < 50000; i++){} // waiting for 50000 iterations
+            document.bgColor = "red"
+        </script>
+        </body>
+</html>
